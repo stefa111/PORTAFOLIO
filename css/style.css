@@ -1,0 +1,688 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: beige;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    max-width: 1700px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav {
+    background-color: rgb(230, 205, 235);
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav .nav {
+    padding: .9em 0em;
+}
+
+
+nav .container ul li {
+    display: inline;
+    padding: .2em;
+}
+
+nav .container ul li a{
+    font-size: 1em;
+    color: #240630;
+    padding: .8em 1em;
+    border-radius: 10px;
+}
+
+nav .container ul li a:hover{
+    color: rgb(255, 255, 255);
+    background-color:#a186d3;
+}
+
+
+section .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+   
+}
+section .wrap-uno {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+   
+}
+
+section .wrap-dos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+   
+}
+
+section .wrap-tres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    width: 70%;
+    height: 95vh;
+    max-width: 1700px;
+    margin: auto;
+    text-align: center;
+    color: beige;
+    font-size: 1.4em;
+   
+}
+/*seccion 1*/
+
+.bienvenida .down {
+    margin-top: 2em;
+}
+
+.bienvenida {
+    background-color: #d6a8d0;
+   padding-top: 3.12em;
+}
+
+.servicios{
+    background-color:#a186d3;
+   
+}
+
+.flex{
+    display: flex;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.foto{
+    height: auto;
+}
+
+.acercademi{ 
+    padding-top: 1.87em;
+    margin-left: 3.125em;
+    text-align: left;
+}
+
+.acercademi b{
+    font-size: 18px;
+    color: black;
+}
+
+h1{
+    color: #240630;
+}
+
+p{
+    color: #240630;
+}
+
+.presentacion{
+    padding-bottom: 0.625em;
+}
+
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-around;
+}
+
+section .contacto{ 
+    margin-top: 1em;
+}
+
+
+section .contacto a{
+    background-color: #c6b2eb;
+    padding: 0em 1.87em;
+    border-radius: 10px;
+    color: #240630;
+    font-size: 20px;
+}
+
+section .contacto a:hover{
+    color: azure;
+    background-color: #9a8bb4;
+    
+}
+
+/*fin seccion 1*/
+
+h3{
+    color:  #240630;
+    padding: 15px;
+    
+}
+
+.flex-servicios{
+    display: flex;
+
+}
+
+.trabajos{
+    background-color:#d6a8d0;
+   
+}
+
+.estudios{
+    background-color: #a186d3;
+}
+
+.contacto{
+    background-color: #d6a8d0
+  
+}
+
+
+
+/* Acá empieza el Slider*/
+.swiper {
+    width: 70%;
+    height: 70%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 80%;
+  }
+
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+
+  /*Final de Slider*/
+
+/* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+@media (min-width: 768px) and (max-width: 1024px)  {
+    body {
+        width: 100%;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 1024px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto {
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .acercademi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .acercademi b {
+        font-size: 15px;
+    }
+    
+    .presentacion {
+        padding-bottom: 0.5em;
+    }
+    
+    .redes-sociales {
+        justify-content: space-evenly;
+    }
+    
+    section .contacto {
+        margin-top: 0.5em;
+    }
+    
+    section .contacto a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+    .servicios {
+        padding-top: 2em;
+    }
+
+    .servicios p {
+        font-size: 15px;
+    }
+
+    .servicios {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 6.25em;
+        font-size: 15px;
+    }
+    
+    .servicios {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .servicios1 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .servicios2 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    .servicios3 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    
+    .trabajos {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes-sociales {
+        margin-top: 1em;
+    }
+    
+   
+}
+
+
+
+  /* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    body {
+        width: 120%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 767px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto {
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .acercademi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .acercademi b {
+        font-size: 15px;
+    }
+    
+    .presentacion{
+        padding-bottom: 0.5em;
+    }
+    
+    .redes-sociales {
+        justify-content: space-evenly;
+    }
+    
+    section .contacto {
+        margin-top: 0.5em;
+    }
+    
+    section .contacto a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+
+    .servicios {
+        padding-top: 2em;
+    }
+
+    .servicios p {
+        font-size: 15px;
+    }
+
+    .servicios {
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em 6.25em;
+        font-size: 15px;
+    }
+    
+    .servicios {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .servicios1 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .servicios2 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    .servicios3 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    
+    .trabajos {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes-sociales {
+        margin-top: 1em;
+    }
+    
+}
+
+/* ##Dispositivo = Smartphones de 320px a 479px */
+@media (min-width: 320px) and (max-width: 480px) {
+    body {
+        width: 140%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        font-size: 12px;
+        justify-content: flex-start;
+    }
+    
+    section .wrap {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-uno {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+    
+    section .wrap-dos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+        width: 90%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    section .wrap-tres {
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        height: auto;
+        max-width: 480px;
+        margin: auto;
+        font-size: 1em;
+    }
+
+    .flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 90%;
+    }
+    
+    .foto{
+        margin-top: 2em;
+        height: auto;
+    }
+    
+    .acercademi {
+        padding-top: 0.5em;
+        text-align: center;
+    }
+    
+    .acercademi {
+        font-size: 15px;
+    }
+    
+    .presentacion {
+        padding-bottom: 0.5em;
+    }
+    
+    .redes-sociales {
+        justify-content: space-evenly;
+    }
+    
+    section .contacto {
+        margin-top: 0.5em;
+    }
+    
+    section .contacto a {
+        font-size: 30px;
+    }
+    
+    .boton a {
+        font-size: 20px;
+    }
+
+    .servicios {
+        padding: 0em 0.5em;
+        font-size: 17px;
+    }
+
+    .servicios1 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    .servicios2 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    .servicios3 {
+        flex-wrap: wrap;
+        padding: 0.5em 1em;
+    }
+    
+    
+    .trabajos {
+        padding: 0em 0.2em;
+    }
+    
+    section .redes-sociales {
+        margin-top: 1em;
+    }
+   
+    
+   
+}
